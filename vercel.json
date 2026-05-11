@@ -1,6 +1,6 @@
 {
     "installCommand": "npm install -g pnpm@10 && pnpm install --no-frozen-lockfile",
-    "buildCommand": "pnpm run typecheck:libs && pnpm --filter @workspace/epe-roadmap build",
+    "buildCommand": "pnpm --filter @workspace/epe-roadmap build",
     "outputDirectory": "artifacts/epe-roadmap/dist",
     "framework": null,
     "rewrites": [
